@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-MNCollegeLoader mnCollegeLoader=new MNCollegeLoader();
+        MNCollegeLoader mnCollegeLoader=new MNCollegeLoader();
         List<MNCollege> collegeList = mnCollegeLoader.loadMNColleges(getApplicationContext());
         MNCollegeDataHolder mnCollegeDataHolder = MNCollegeDataHolder.getInstance();
         mnCollegeDataHolder.setCollegeData(collegeList);
